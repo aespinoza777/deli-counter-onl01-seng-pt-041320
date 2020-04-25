@@ -4,7 +4,7 @@ def line(array)
   puts "The line is currently empty."
 else
   index = 0
-  line_order = "The line is currently empty"
+  line_order = "The line is currently:"
   while index < line_length do
   line_order = line_order + "#{index+1}." + array[index]
     index += 1

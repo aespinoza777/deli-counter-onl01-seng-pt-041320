@@ -1,5 +1,3 @@
-katz deli = ["Logan", "Avi", "Spencer"]
-
 def line(array)
   line_length = array.length
   if line_length == 0
